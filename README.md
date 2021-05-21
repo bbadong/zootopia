@@ -21,6 +21,7 @@
 # 개요 
 
 ## Team 구성
+![팀구성](https://user-images.githubusercontent.com/29944139/118989592-1d82c900-b9bd-11eb-9bc2-0b821d849581.jpg)
 
 ## 서비스 개요
 - 새로운 만남을 하고 싶은 외로운 싱글을 위한 만남추천 App으로 AI기반 본인의 동물상과 잘 맞는 이상형을 추천하는 Fun 미팅앱 입니다.
@@ -43,11 +44,11 @@
 ## 마이크로서비스 도출
 
 * 도메인 서열 분리
-  - Core Domain: AI&Admin
+  - Core Domain: AI
     - 없어서는 안될 핵심 서비스이며, 연간 Up-time SLA 수준을 99.999% 목표, 배포주기는 예약의 경우 1주일 1회 미만, 매칭업체는 1개월 1회 미만
   - Supporting Domain: SNS 
     - 경쟁력을 내기위한 서비스이며, SLA 수준은 연간 60% 이상 uptime 목표, 배포주기는 각 팀의 자율이나 표준 스프린트 주기가 1주일 이므로 1주일 1회 이상을 기준으로 함.
-  - General Domain: USER
+  - General Domain: USER, ADMIN
 
 ### 1. AI&ADMIN
 ![EventStorming_AI_Admin](https://user-images.githubusercontent.com/29944139/118923611-c6f29c00-b976-11eb-9ef1-167277af612d.jpg)
