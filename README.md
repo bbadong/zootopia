@@ -16,6 +16,8 @@
     - [DDD 의 적용](#DDD-의-적용)
     - [API Gateway 적용](#API-Gateway-적용)
   - [테스트](#테스트)
+    - [SonarQube, Sonar Scanner 를 통한 소스 정적 코드 분석 적용](#SonarQube,-Sonar-Scanner-를-통한-소스-정적-코드-분석-적용)
+    - [Jmeter 를 통한 성능 테스트 적용](#Jmeter-를-통한-성능-테스트-적용)
   - [운영](#운영)
 
 
@@ -127,7 +129,7 @@ Forwarding from [::1]:38080 -> 80
 ![image](https://user-images.githubusercontent.com/59593156/119074258-ab949900-ba29-11eb-9741-aeb661017370.png)
 
 ## Jmeter 를 통한 성능 테스트 적용
-- Jenkins 파일에 해당 stage 추가하여 배포 전 자동으로 수행
+- Jenkins 파일에 해당 stage 추가하여 배포 후 자동으로 수행
 ![image](https://user-images.githubusercontent.com/59593156/119074435-ff9f7d80-ba29-11eb-8aae-95dd0aebcf40.png)
 ![image](https://user-images.githubusercontent.com/59593156/119074475-13e37a80-ba2a-11eb-988d-749c68a2c066.png)
 ![image](https://user-images.githubusercontent.com/59593156/119075397-a6d0e480-ba2b-11eb-9d8b-3ffaaa1e1d39.png)
