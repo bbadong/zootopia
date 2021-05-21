@@ -42,33 +42,35 @@
 
 ## 마이크로서비스 도출
 
-###1. AI&ADMIN
+### 1. AI&ADMIN
 ![EventStorming_AI_Admin](https://user-images.githubusercontent.com/29944139/118923611-c6f29c00-b976-11eb-9ef1-167277af612d.jpg)
 
-###2. USER
+### 2. USER
 ![EventStorming_USER](https://user-images.githubusercontent.com/29944139/118923621-cd811380-b976-11eb-9435-1c05a549ecf4.jpg)
 
-###3. SNS
+### 3. SNS
 ![EventStorming_SNS](https://user-images.githubusercontent.com/29944139/118923629-d1ad3100-b976-11eb-84ce-a246d9cc6dfe.jpg)
 
 ## 서비스스펙
 
-###1. ADMIN
+* 도메인 서열 분리
+  - Core Domain: USER
+    - 없어서는 안될 핵심 서비스이며, 연간 Up-time SLA 수준을 99.999% 목표, 배포주기는 예약의 경우 1주일 1회 미만, 매칭업체는 1개월 1회 미만
+  - Supporting Domain: SNS, 마이페이지
+    - 경쟁력을 내기위한 서비스이며, SLA 수준은 연간 60% 이상 uptime 목표, 배포주기는 각 팀의 자율이나 표준 스프린트 주기가 1주일 이므로 1주일 1회 이상을 기준으로 함.
+  - General Domain: AI
+    - AI로 3rd Party 외부 서비스를 사용하는 것이 경쟁력이 높음
+   
+### 1. ADMIN
 ![ServiceSpec_ADIM](https://user-images.githubusercontent.com/29944139/118925241-58fba400-b979-11eb-9519-e381f37db5ab.jpg)
 
-###2. USER
+### 2. USER
 ![ServiceSpec_USER](https://user-images.githubusercontent.com/29944139/118926317-15099e80-b97b-11eb-82bf-956b670efbc1.jpg)
 
-###3. SNS
+### 3. SNS
 ![ServiceSpec_SNS](https://user-images.githubusercontent.com/29944139/118926587-834e6100-b97b-11eb-8759-30be170fe304.jpg)
 
-###* 도메인 서열 분리
-- Core Domain: USER
-	없어서는 안될 핵심 서비스이며, 연간 Up-time SLA 수준을 99.999% 목표, 배포주기는 예약의 경우 1주일 1회 미만, 매칭업체는 1개월 1회 미만
-- Supporting Domain: SNS, 마이페이지
-    경쟁력을 내기위한 서비스이며, SLA 수준은 연간 60% 이상 uptime 목표, 배포주기는 각 팀의 자율이나 표준 스프린트 주기가 1주일 이므로 1주일 1회 이상을 기준으로 함.
-- General Domain: AI
-   AI로 3rd Party 외부 서비스를 사용하는 것이 경쟁력이 높음
+
 
 ## Architecture
  ![헥사고날 아키텍처](https://user-images.githubusercontent.com/69634194/119058962-54cb9700-ba0a-11eb-8170-3db51a73ad45.gif)
