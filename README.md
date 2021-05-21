@@ -48,7 +48,6 @@
   - Supporting Domain: SNS 
     - 경쟁력을 내기위한 서비스이며, SLA 수준은 연간 60% 이상 uptime 목표, 배포주기는 각 팀의 자율이나 표준 스프린트 주기가 1주일 이므로 1주일 1회 이상을 기준으로 함.
   - General Domain: USER
-    - AI로 3rd Party 외부 서비스를 사용하는 것이 경쟁력이 높음
 
 ### 1. AI&ADMIN
 ![EventStorming_AI_Admin](https://user-images.githubusercontent.com/29944139/118923611-c6f29c00-b976-11eb-9ef1-167277af612d.jpg)
