@@ -132,7 +132,6 @@ Forwarding from [::1]:38080 -> 80
 - Jenkins 파일에 해당 stage 추가하여 배포 후 자동으로 수행
 ![image](https://user-images.githubusercontent.com/59593156/119074435-ff9f7d80-ba29-11eb-8aae-95dd0aebcf40.png)
 ![image](https://user-images.githubusercontent.com/59593156/119074475-13e37a80-ba2a-11eb-988d-749c68a2c066.png)
-![image](https://user-images.githubusercontent.com/59593156/119075397-a6d0e480-ba2b-11eb-9d8b-3ffaaa1e1d39.png)
 
 
 # 운영
