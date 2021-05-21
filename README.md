@@ -50,14 +50,17 @@
     - 경쟁력을 내기위한 서비스이며, SLA 수준은 연간 60% 이상 uptime 목표, 배포주기는 각 팀의 자율이나 표준 스프린트 주기가 1주일 이므로 1주일 1회 이상을 기준으로 함.
   - General Domain: USER, ADMIN
 
-### 1. AI&ADMIN
-![EventStorming_AI_Admin](https://user-images.githubusercontent.com/29944139/118923611-c6f29c00-b976-11eb-9ef1-167277af612d.jpg)
+### 1. AI
+![EventStorming_AI](https://user-images.githubusercontent.com/29944139/119068115-7cc4f580-ba1e-11eb-99ee-38b6be1eadc6.jpg)
 
 ### 2. USER
 ![EventStorming_USER](https://user-images.githubusercontent.com/29944139/118923621-cd811380-b976-11eb-9435-1c05a549ecf4.jpg)
 
 ### 3. SNS
 ![EventStorming_SNS](https://user-images.githubusercontent.com/29944139/118923629-d1ad3100-b976-11eb-84ce-a246d9cc6dfe.jpg)
+
+### 4. ADMIN
+![EventStorming_Admin](https://user-images.githubusercontent.com/29944139/119068150-8b131180-ba1e-11eb-9765-c620d8874861.jpg)
 
 ## 서비스스펙
    
