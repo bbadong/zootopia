@@ -168,16 +168,13 @@ Forwarding from [::1]:38080 -> 80
 
 # 시연
 
-## 초기화면
-![image0](https://user-images.githubusercontent.com/29944139/119086658-c7f00000-ba40-11eb-91ea-c344dbdc68c9.jpeg)
+## 초기화면 및 signin/signup
+![image0](https://user-images.githubusercontent.com/69634194/119091006-5798ad00-ba47-11eb-9184-7bd9ab084370.gif)
 
-## 나의 동물상 조회
-![image1](https://user-images.githubusercontent.com/29944139/119086667-ccb4b400-ba40-11eb-8306-3cc22e45d5ad.jpeg)
-
-## 추천 이상형
-![image2](https://user-images.githubusercontent.com/29944139/119086686-d211fe80-ba40-11eb-9bff-f2b156f5c2ff.jpeg)
+## 나의 동물상 조회 및 추천이상형
+![image1](https://user-images.githubusercontent.com/69634194/119091010-59fb0700-ba47-11eb-8400-e1900562cec5.gif)
 
 ## MY PAGE
-![image0 (1)](https://user-images.githubusercontent.com/29944139/119089308-e821be00-ba44-11eb-9eb3-9b355c9050fc.jpeg)
+![image0 (1)](https://user-images.githubusercontent.com/69634194/119091019-5e272480-ba47-11eb-9390-216bca425df6.gif)
 
 
