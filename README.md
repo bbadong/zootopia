@@ -42,6 +42,14 @@
 
 ## 마이크로서비스 도출
 
+* 도메인 서열 분리
+  - Core Domain: AI&Admin
+    - 없어서는 안될 핵심 서비스이며, 연간 Up-time SLA 수준을 99.999% 목표, 배포주기는 예약의 경우 1주일 1회 미만, 매칭업체는 1개월 1회 미만
+  - Supporting Domain: SNS 
+    - 경쟁력을 내기위한 서비스이며, SLA 수준은 연간 60% 이상 uptime 목표, 배포주기는 각 팀의 자율이나 표준 스프린트 주기가 1주일 이므로 1주일 1회 이상을 기준으로 함.
+  - General Domain: USER
+    - AI로 3rd Party 외부 서비스를 사용하는 것이 경쟁력이 높음
+
 ### 1. AI&ADMIN
 ![EventStorming_AI_Admin](https://user-images.githubusercontent.com/29944139/118923611-c6f29c00-b976-11eb-9ef1-167277af612d.jpg)
 
@@ -52,14 +60,6 @@
 ![EventStorming_SNS](https://user-images.githubusercontent.com/29944139/118923629-d1ad3100-b976-11eb-84ce-a246d9cc6dfe.jpg)
 
 ## 서비스스펙
-
-* 도메인 서열 분리
-  - Core Domain: USER
-    - 없어서는 안될 핵심 서비스이며, 연간 Up-time SLA 수준을 99.999% 목표, 배포주기는 예약의 경우 1주일 1회 미만, 매칭업체는 1개월 1회 미만
-  - Supporting Domain: SNS, 마이페이지
-    - 경쟁력을 내기위한 서비스이며, SLA 수준은 연간 60% 이상 uptime 목표, 배포주기는 각 팀의 자율이나 표준 스프린트 주기가 1주일 이므로 1주일 1회 이상을 기준으로 함.
-  - General Domain: AI
-    - AI로 3rd Party 외부 서비스를 사용하는 것이 경쟁력이 높음
    
 ### 1. ADMIN
 ![ServiceSpec_ADIM](https://user-images.githubusercontent.com/29944139/118925241-58fba400-b979-11eb-9519-e381f37db5ab.jpg)
