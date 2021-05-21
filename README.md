@@ -172,7 +172,7 @@ Forwarding from [::1]:38080 -> 80
 ![image0](https://user-images.githubusercontent.com/69634194/119091006-5798ad00-ba47-11eb-9184-7bd9ab084370.gif)
 
 ## 나의 동물상 조회 및 추천이상형
-![image1](https://user-images.githubusercontent.com/69634194/119091010-59fb0700-ba47-11eb-8400-e1900562cec5.gif)
+![image1](https://user-images.githubusercontent.com/69634194/119091707-6f246580-ba48-11eb-8c28-d9015097e686.gif)
 
 ## MY PAGE
 ![image0 (1)](https://user-images.githubusercontent.com/69634194/119091019-5e272480-ba47-11eb-9390-216bca425df6.gif)
