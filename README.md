@@ -177,3 +177,7 @@ Forwarding from [::1]:38080 -> 80
 ## 추천 이상형
 ![image2](https://user-images.githubusercontent.com/29944139/119086686-d211fe80-ba40-11eb-9bff-f2b156f5c2ff.jpeg)
 
+## MY PAGE
+![image0 (1)](https://user-images.githubusercontent.com/29944139/119089308-e821be00-ba44-11eb-9eb3-9b355c9050fc.jpeg)
+
+
