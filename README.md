@@ -124,7 +124,7 @@ Forwarding from [::1]:38080 -> 80
 
 # 테스트
 
-## SonarQube, Sonar Scanner 를 통한 소스 정적 코드 분석 적용
+## SonarQube, Sonar Scanner 를 통한 소스 정적 분석 적용
 - Jenkins 파일에 해당 stage 추가하여 빌드 전 자동으로 수행
 ![image](https://user-images.githubusercontent.com/59593156/119074258-ab949900-ba29-11eb-9741-aeb661017370.png)
 
