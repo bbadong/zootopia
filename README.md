@@ -165,14 +165,15 @@ Forwarding from [::1]:38080 -> 80
 ![image](https://user-images.githubusercontent.com/59593156/119064134-9e6daf00-ba15-11eb-9b16-6f3f7ab4ebdf.png)
 ![image](https://user-images.githubusercontent.com/59593156/119064176-b9402380-ba15-11eb-8b12-eb453aa63ed2.png)
 
+
 # 시연
 
 ## 초기화면
-![image0](https://user-images.githubusercontent.com/29944139/119086058-df7ab900-ba3f-11eb-854c-8537ccf3b054.png)
+![image0](https://user-images.githubusercontent.com/29944139/119086658-c7f00000-ba40-11eb-91ea-c344dbdc68c9.jpeg)
 
 ## 나의 동물상 조회
-![image1](https://user-images.githubusercontent.com/29944139/119086083-e9042100-ba3f-11eb-9ff1-d7aa4d98368b.png)
+![image1](https://user-images.githubusercontent.com/29944139/119086667-ccb4b400-ba40-11eb-8306-3cc22e45d5ad.jpeg)
 
 ## 추천 이상형
-![image2](https://user-images.githubusercontent.com/29944139/119086092-ed303e80-ba3f-11eb-8daf-daf20f263ffd.png)
+![image2](https://user-images.githubusercontent.com/29944139/119086686-d211fe80-ba40-11eb-9bff-f2b156f5c2ff.jpeg)
 
