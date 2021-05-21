@@ -110,7 +110,10 @@ Forwarding from [::1]:38080 -> 80
 
 ```
 
-## 화면
+## 이벤트 발행/구독 처리를 위해 RabbitMQ 기능 적용
+- 이벤트 발행 Exchanges 와 이벤트 구독 Queues
+![image](https://user-images.githubusercontent.com/59593156/119067732-a7627e80-ba1d-11eb-9b88-e6df3d2ebf30.png)
+![image](https://user-images.githubusercontent.com/59593156/119067740-aaf60580-ba1d-11eb-91fa-3706133c9fb7.png)
 
 
 # 운영
@@ -128,18 +131,12 @@ Forwarding from [::1]:38080 -> 80
 ### Jenkins 를 통한 배포 
 - ![jenkins zootopia](https://user-images.githubusercontent.com/69634194/119060340-f3f18e00-ba0c-11eb-858e-36deae446143.gif)
 
-### 로깅 / 모니터링 화면(todo)
-- 로깅/모니터링/MQ 화면 캡처 
-
-
-# 운영
-
-## 로그 집중화 및 Tracing 기능 적용
+### 로그 집중화 및 Tracing 기능 적용
 - Application, Kubernetes 로그를 ZCP 의 Kibana 에서 확인
 - Application 로그에 Spring Sleuth, Zipkin 적용
 ![image](https://user-images.githubusercontent.com/59593156/119063518-4a15ff80-ba14-11eb-9bc0-39172b98db7f.png)
 
-## Monitoring 기능 적용
+### Monitoring 기능 적용
 - Application 에 Prometheus 적용
 - Prometheus Server 에 수집된 로그를 ZCP 의 Grafana 에서 확인
 ![image](https://user-images.githubusercontent.com/59593156/119064134-9e6daf00-ba15-11eb-9b16-6f3f7ab4ebdf.png)
