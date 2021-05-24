@@ -82,8 +82,13 @@
 ### 3. SNS
 ![ServiceSpec_SNS](https://user-images.githubusercontent.com/29944139/118926587-834e6100-b97b-11eb-8759-30be170fe304.jpg)
 
+## Domain Model
+USER, SNS, Admin, AI 로 구분하였음.
+![zootopia-domain](https://user-images.githubusercontent.com/69634194/119419340-03d2e000-bd35-11eb-8a0e-b5e802498b65.GIF)
+
 ## 마이크로서비스 설계
 ![마이크로서비스 설계](https://user-images.githubusercontent.com/69634194/119418672-7c38a180-bd33-11eb-94d5-c54b827b60e9.GIF)
+
 
 ## Architecture
  ![헥사고날 아키텍처](https://user-images.githubusercontent.com/69634194/119058962-54cb9700-ba0a-11eb-8170-3db51a73ad45.gif)
