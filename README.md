@@ -101,7 +101,7 @@ USER, SNS, Admin, AI 로 구분하였음.
 - 각 서비스내에 도출된 핵심 Aggregate Root 객체를 Entity 로 선언
   - Admin, User, SNS
 - JPA로 MariaDB, OpenAPI 사용을 위한 Firebase 를 사용함
-  - Entity Pattern 과 Repository Pattern 을 적용하여 JPA 를 통하여 다양한 데이터소스 유형 (RDB or NoSQL) 에 대한 별도의 처리가 없도록 데이터 접근 어댑터를 자동 생성하기 위하여 Spring Data JPA 의 RestRepository 를 적용
+  - Entity Pattern 과 Repository Pattern 을 적용하여 JPA 를 통하여 다양한 데이터소스 유형 (RDB or NoSQL) 에 대한 별도의 처리가 없도록 데이터 접근 어댑터를 자동 생성하기 위하여 Spring Data JPA 적용
 
 ## API Gateway 적용
 - 등록된 사진의 동물상 매칭 및 UI 서비스는 BFF를 통해서 접속이 되며, Microservice의 통신은 Gateway를 통해서 호출되도록 구성
